@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+.env
+.vscode/
+.idea/
+*.log
+temp/
+output.json
+create_pdf.js
+generatePdf.js

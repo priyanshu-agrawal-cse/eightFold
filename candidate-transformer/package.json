@@ -1,0 +1,32 @@
+{
+  "name": "candidate-transformer",
+  "version": "1.0.0",
+  "description": "Production-quality Candidate Data Transformer",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "csv-parser": "^3.0.0",
+    "libphonenumber-js": "^1.11.4",
+    "marked": "^18.0.5",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.19.1",
+    "puppeteer": "^24.43.1",
+    "uuid": "^10.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.9",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/uuid": "^10.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
