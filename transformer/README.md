@@ -30,14 +30,14 @@ npm run build
 
 ## Run
 ```
-npm start -- --csv samples/recruiter.csv --resume samples/resume.pdf --config samples/config.json --output samples/output.json
+npm start -- --csv samples/recruiter.csv --resume samples/resume.pdf --config config/default.json --output samples/output.json
 ```
 
 ## Sample Input
 The `samples/` directory contains:
 - `recruiter.csv`: Simulated ATS export.
 - `resume.pdf`: Simulated candidate resume.
-- `config.json`: Configuration to reshape the output.
+- `config/default.json`: Configuration to reshape the output.
 
 ## Sample Output
 Running the command above will generate a canonical JSON profile at `samples/output.json`.
